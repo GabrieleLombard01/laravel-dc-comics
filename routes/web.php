@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Folder\HomeController;
+use App\Http\Controllers\Folder\CharactersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Rotta x Home
 Route::get('/', [HomeController::class, 'index'])->name('home');
+
+// Rotta x Home
+Route::get('/characters', [CharactersController::class, 'index'])->name('characters');

@@ -9,13 +9,13 @@
     <div class="container-lg ">
         <nav>
             <ul>
-                <li><a href="#">
+                <li><a href="{{ route('home') }}">
                         <figure>
                             <img src="{{ asset('images/dc-logo.png') }}" alt="Logo">
                         </figure>
                     </a>
                 </li>
-                <li><a href="#">CHARACTERS</a></li>
+                <li><a href="{{ route('characters') }}">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
