@@ -1,0 +1,22 @@
+/*--DETAILS--*/
+.details-box{
+    width: 100%;
+    min-height: 45vh;
+    background-image: url(../../public/images/footer-bg.jpg);
+    background-size: cover;
+}
+
+.details-box .col-6 img{
+    width: 80%;
+    position: relative;
+    left: 5.5rem;
+    bottom: 3rem;
+}
+
+.details-box li a{
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+}
+.details-box a:hover{
+    color: white;
+}
