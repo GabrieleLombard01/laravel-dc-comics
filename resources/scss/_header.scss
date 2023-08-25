@@ -1,0 +1,39 @@
+/*--HEADER--*/
+
+header ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 800;
+}
+header li a{
+    color: #494949;
+    
+}
+header figure img{
+    width: 80px;
+}
+
+.blue_header{
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    width: 100%;
+    background-color: #0282f9;
+}
+.blue_header .container-lg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+header li a:hover{
+    color: #0282f9;
+    text-decoration: underline;
+}
+header li a:active{
+    text-shadow: 1px 1px 1px #003566;
+}

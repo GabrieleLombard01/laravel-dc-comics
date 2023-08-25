@@ -1,0 +1,28 @@
+/*--FOOTER--*/
+footer{
+    width: 100%;
+    min-height: 12vh;
+    background-color: #303030;
+    padding-top: 30px;
+}
+
+.footer_btn{
+    border: solid #0282f9 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.footer_btn h3{
+    font-size: 16px;
+}
+
+.social-box{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.social-box h3{
+    color: #0282f9;
+}
+.footer_btn:hover{
+    background-color: #0282f9;
+}
