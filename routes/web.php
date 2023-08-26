@@ -3,6 +3,7 @@
 use App\Http\Controllers\ComicsController;
 use App\Http\Controllers\Folder\HomeController;
 use App\Http\Controllers\Folder\CharactersController;
+use App\Http\Controllers\MoviesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,6 @@ Route::get('/characters', [CharactersController::class, 'index'])->name('charact
 
 // Rotta x Comics
 Route::get('/comics', [ComicsController::class, 'index'])->name('comics');
+
+// Rotta x Movies
+Route::get('/movies', [MoviesController::class, 'index'])->name('movies');
