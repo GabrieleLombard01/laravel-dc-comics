@@ -23,9 +23,9 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 // Rotta x Characters
 Route::get('/characters', [CharactersController::class, 'index'])->name('characters');
 
-// Rotte x Comics
+// Rotte x i Comics
 Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');
-// Route::get('/comics/{comic}', [ComicsController::class, 'show'])->name('comics.show');
+Route::get('/comics/{comic}', [ComicController::class, 'show'])->name('comics.show');
 // Route::get('/comics/create', [ComicsController::class, 'create'])->name('comics.create');
 
 
