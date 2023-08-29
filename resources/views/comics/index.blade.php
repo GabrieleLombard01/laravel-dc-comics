@@ -11,7 +11,15 @@
         <!-- contents: -->
         <div id="products" class="container card-deck">
 
-            <h2 class="text-white pt-5">CARDS</h2>
+            @foreach ($comics as $comic)
+                <div class="card bg-dark m-2" style="width: 18rem;">
+                    <img src="{{ $comic->thumb }}" class="card-img-top" alt="{{ $comic->title }}">
+                    <div class="card-body">
+                        <h5 class="text-white card-title">{{ $comic->title }}</h5>
+                    </div>
+                </div>
+            @endforeach
+
 
         </div>
 
