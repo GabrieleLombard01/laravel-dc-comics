@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\ComicsController;
+use App\Http\Controllers\ComicController;
 use App\Http\Controllers\Folder\HomeController;
 use App\Http\Controllers\Folder\CharactersController;
 use App\Http\Controllers\MoviesController;
@@ -24,7 +24,9 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/characters', [CharactersController::class, 'index'])->name('characters');
 
 // Rotte x Comics
-Route::get('/comics', [ComicsController::class, 'index'])->name('comics.index');
+Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');
+// Route::get('/comics/{comic}', [ComicsController::class, 'show'])->name('comics.show');
+// Route::get('/comics/create', [ComicsController::class, 'create'])->name('comics.create');
 
 
 // Rotta x Movies
