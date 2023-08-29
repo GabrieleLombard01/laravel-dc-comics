@@ -11,7 +11,7 @@
         <!-- contents: -->
         <div id="products" class="container card-deck">
 
-            <h2>CARDS</h2>
+            <h2 class="text-white pt-5">CARDS</h2>
 
         </div>
 

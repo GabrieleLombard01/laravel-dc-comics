@@ -23,8 +23,9 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 // Rotta x Characters
 Route::get('/characters', [CharactersController::class, 'index'])->name('characters');
 
-// Rotta x Comics
-Route::get('/comics', [ComicsController::class, 'index'])->name('comics');
+// Rotte x Comics
+Route::get('/comics', [ComicsController::class, 'index'])->name('comics.index');
+
 
 // Rotta x Movies
 Route::get('/movies', [MoviesController::class, 'index'])->name('movies');
