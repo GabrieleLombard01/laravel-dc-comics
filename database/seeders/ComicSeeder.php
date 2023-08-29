@@ -15,7 +15,10 @@ class ComicSeeder extends Seeder
     {
 
         $comics = config('comics');
-
+        foreach ($comics as &$comic) {
+            $comic['artists'] = implode($comic['artists']);
+            $comic['writers'] = implode($comic['writers']);
+        };
         foreach ($comics as $comic) {
             $new_comic = new Comic();
             $new_comic->fill($comic);
